@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/ankitmaurya962/DSA/tree/master/0743-network-delay-time) |
+| [0778-swim-in-rising-water](https://github.com/ankitmaurya962/DSA/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ankitmaurya962/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0827-making-a-large-island](https://github.com/ankitmaurya962/DSA/tree/master/0827-making-a-large-island) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/ankitmaurya962/DSA/tree/master/0947-most-stones-removed-with-same-row-or-column) |
@@ -18,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/ankitmaurya962/DSA/tree/master/0743-network-delay-time) |
+| [0778-swim-in-rising-water](https://github.com/ankitmaurya962/DSA/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ankitmaurya962/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0827-making-a-large-island](https://github.com/ankitmaurya962/DSA/tree/master/0827-making-a-large-island) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ankitmaurya962/DSA/tree/master/1319-number-of-operations-to-make-network-connected) |
@@ -33,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/ankitmaurya962/DSA/tree/master/0743-network-delay-time) |
+| [0778-swim-in-rising-water](https://github.com/ankitmaurya962/DSA/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ankitmaurya962/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Shortest Path
 |  |
@@ -43,18 +46,21 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0778-swim-in-rising-water](https://github.com/ankitmaurya962/DSA/tree/master/0778-swim-in-rising-water) |
 | [0827-making-a-large-island](https://github.com/ankitmaurya962/DSA/tree/master/0827-making-a-large-island) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/ankitmaurya962/DSA/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2906-construct-product-matrix](https://github.com/ankitmaurya962/DSA/tree/master/2906-construct-product-matrix) |
 ## Matrix
 |  |
 | ------- |
+| [0778-swim-in-rising-water](https://github.com/ankitmaurya962/DSA/tree/master/0778-swim-in-rising-water) |
 | [0827-making-a-large-island](https://github.com/ankitmaurya962/DSA/tree/master/0827-making-a-large-island) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/ankitmaurya962/DSA/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2906-construct-product-matrix](https://github.com/ankitmaurya962/DSA/tree/master/2906-construct-product-matrix) |
 ## Union-Find
 |  |
 | ------- |
+| [0778-swim-in-rising-water](https://github.com/ankitmaurya962/DSA/tree/master/0778-swim-in-rising-water) |
 | [0827-making-a-large-island](https://github.com/ankitmaurya962/DSA/tree/master/0827-making-a-large-island) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/ankitmaurya962/DSA/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ankitmaurya962/DSA/tree/master/1319-number-of-operations-to-make-network-connected) |
@@ -66,4 +72,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2906-construct-product-matrix](https://github.com/ankitmaurya962/DSA/tree/master/2906-construct-product-matrix) |
+## Binary Search
+|  |
+| ------- |
+| [0778-swim-in-rising-water](https://github.com/ankitmaurya962/DSA/tree/master/0778-swim-in-rising-water) |
 <!---LeetCode Topics End-->
