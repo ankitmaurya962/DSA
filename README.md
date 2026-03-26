@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0743-network-delay-time](https://github.com/ankitmaurya962/DSA/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ankitmaurya962/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0827-making-a-large-island](https://github.com/ankitmaurya962/DSA/tree/master/0827-making-a-large-island) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/ankitmaurya962/DSA/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ankitmaurya962/DSA/tree/master/1319-number-of-operations-to-make-network-connected) |
 ## Breadth-First Search
@@ -18,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0743-network-delay-time](https://github.com/ankitmaurya962/DSA/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ankitmaurya962/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0827-making-a-large-island](https://github.com/ankitmaurya962/DSA/tree/master/0827-making-a-large-island) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ankitmaurya962/DSA/tree/master/1319-number-of-operations-to-make-network-connected) |
 ## Graph Theory
 |  |
@@ -41,16 +43,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0827-making-a-large-island](https://github.com/ankitmaurya962/DSA/tree/master/0827-making-a-large-island) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/ankitmaurya962/DSA/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2906-construct-product-matrix](https://github.com/ankitmaurya962/DSA/tree/master/2906-construct-product-matrix) |
 ## Matrix
 |  |
 | ------- |
+| [0827-making-a-large-island](https://github.com/ankitmaurya962/DSA/tree/master/0827-making-a-large-island) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/ankitmaurya962/DSA/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2906-construct-product-matrix](https://github.com/ankitmaurya962/DSA/tree/master/2906-construct-product-matrix) |
 ## Union-Find
 |  |
 | ------- |
+| [0827-making-a-large-island](https://github.com/ankitmaurya962/DSA/tree/master/0827-making-a-large-island) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/ankitmaurya962/DSA/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ankitmaurya962/DSA/tree/master/1319-number-of-operations-to-make-network-connected) |
 ## Hash Table
