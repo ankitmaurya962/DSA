@@ -86,4 +86,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/ankitmaurya962/DSA/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
+## Database
+|  |
+| ------- |
+| [1075-project-employees-i](https://github.com/ankitmaurya962/DSA/tree/master/1075-project-employees-i) |
 <!---LeetCode Topics End-->
