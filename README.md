@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0778-swim-in-rising-water](https://github.com/ankitmaurya962/DSA/tree/master/0778-swim-in-rising-water) |
 | [0827-making-a-large-island](https://github.com/ankitmaurya962/DSA/tree/master/0827-making-a-large-island) |
+| [0874-walking-robot-simulation](https://github.com/ankitmaurya962/DSA/tree/master/0874-walking-robot-simulation) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/ankitmaurya962/DSA/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2906-construct-product-matrix](https://github.com/ankitmaurya962/DSA/tree/master/2906-construct-product-matrix) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/ankitmaurya962/DSA/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0874-walking-robot-simulation](https://github.com/ankitmaurya962/DSA/tree/master/0874-walking-robot-simulation) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/ankitmaurya962/DSA/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 ## Prefix Sum
 |  |
@@ -87,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0874-walking-robot-simulation](https://github.com/ankitmaurya962/DSA/tree/master/0874-walking-robot-simulation) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/ankitmaurya962/DSA/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 ## Database
 |  |
