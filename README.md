@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0039-combination-sum](https://github.com/ankitmaurya962/DSA/tree/master/0039-combination-sum) |
 | [0778-swim-in-rising-water](https://github.com/ankitmaurya962/DSA/tree/master/0778-swim-in-rising-water) |
 | [0827-making-a-large-island](https://github.com/ankitmaurya962/DSA/tree/master/0827-making-a-large-island) |
 | [0874-walking-robot-simulation](https://github.com/ankitmaurya962/DSA/tree/master/0874-walking-robot-simulation) |
@@ -109,4 +110,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1192-critical-connections-in-a-network](https://github.com/ankitmaurya962/DSA/tree/master/1192-critical-connections-in-a-network) |
+## Backtracking
+|  |
+| ------- |
+| [0039-combination-sum](https://github.com/ankitmaurya962/DSA/tree/master/0039-combination-sum) |
 <!---LeetCode Topics End-->
