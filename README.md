@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/ankitmaurya962/DSA/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2906-construct-product-matrix](https://github.com/ankitmaurya962/DSA/tree/master/2906-construct-product-matrix) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/ankitmaurya962/DSA/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
+| [3740-minimum-distance-between-three-equal-elements-i](https://github.com/ankitmaurya962/DSA/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
 ## Matrix
 |  |
 | ------- |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0874-walking-robot-simulation](https://github.com/ankitmaurya962/DSA/tree/master/0874-walking-robot-simulation) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/ankitmaurya962/DSA/tree/master/0947-most-stones-removed-with-same-row-or-column) |
+| [3740-minimum-distance-between-three-equal-elements-i](https://github.com/ankitmaurya962/DSA/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
 ## Prefix Sum
 |  |
 | ------- |
