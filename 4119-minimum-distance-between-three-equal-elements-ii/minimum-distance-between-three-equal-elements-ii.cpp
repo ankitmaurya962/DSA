@@ -1,27 +1,28 @@
 class Solution {
 public:
     int minimumDistance(vector<int>& nums) {
+        map<int, vector<int>>mp;
 
-        int n = nums.size(); 
-
-        unordered_map<int, vector<int>> freq;
-
-        for(int i = 0 ; i < n ; i++){
-            freq[nums[i]].push_back(i);
+        for(int  i = 0; i<nums.size(); i++){
+            mp[nums[i]].push_back(i);
         }
-        int ans = 0 ; 
-        int mini = INT_MAX ; 
-        for(auto& [num, indices] : freq){
 
-            if (indices.size() >= 3) {
-                for (int i = 0; i + 2 < indices.size(); i++) {
-                    int dist = 2 * (indices[i + 2] - indices[i]);
-                    mini = min(mini, dist);
+        int ans = INT_MAX;
+        for(auto it: mp){
+            if(it.second.size() >= 3){
+                int sum = 0;
+                vector<int>goodtuple = it.second;
+                for(int i = 0; i<=goodtuple.size()-3; i++){
+                    int a = goodtuple[i];
+                    int b = goodtuple[i+1];
+                    int c = goodtuple[i+2];
+
+                    sum = abs(a-b) + abs(b-c) +abs(c-a);
+                    ans  = min(sum, ans);
                 }
             }
         }
-    
-            
-        return mini == INT_MAX ? -1 : mini; 
+
+        return ans == INT_MAX ? -1 : ans;
     }
 };
