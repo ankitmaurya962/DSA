@@ -17,13 +17,12 @@ public:
         int m = dictionary.size();
 
         vector<string>ans;
-        vector<int>vis(n, 0);
 
         for(int i = 0; i<n; i++){
             for(int j = 0; j<m; j++){
-                if(wordMatch(queries[i], dictionary[j]) && vis[i]==0){
+                if(wordMatch(queries[i], dictionary[j])){
                     ans.push_back(queries[i]);
-                    vis[i] = 1;
+                    break;
                 }
             }
         }
