@@ -17,33 +17,17 @@ public:
              unordered_map<int, vector<vector<int>>>& mp) {
         vis[row][col] = 1;
 
-        int drow[] = {-1, 0, 1, 0};
-        int dcol[] = {0, 1, 0, -1};
+        for(auto it: mp[grid[row][col]]){
+            int newR = it[0] + row;
+            int newC = it[1] + col;
 
-        for (int i = 0; i < 4; i++) {
-            int newR = drow[i] + row;
-            int newC = dcol[i] + col;
-
-            if (newR >= 0 && newR < n && newC >= 0 && newC < m &&
-                vis[newR][newC] != 1) {
-                bool canGo = false;
-                for (auto it : mp[grid[row][col]]) {
-                    if (row + it[0] == newR && col + it[1] == newC) {
-                        canGo = true;
-                        break;
-                    }
-                }
-                if (canGo && isValid(newR, newC, row, col, mp, grid)) {
-                    if (newR == n - 1 && newC == m - 1)
-                        return true;
-                    else {
-                        if (dfs(grid, vis, newR, newC, n, m, mp))
-                            return true;
-                    }
+            if(newR>=0 && newR < n && newC>=0 && newC < m && vis[newR][newC]!=1){
+                if(isValid(newR, newC, row, col, mp, grid)){
+                    if(newR == n-1 && newC == m-1) return true;
+                    if(dfs(grid, vis, newR, newC, n, m, mp)) return true;
                 }
             }
         }
-
         return false;
     }
     bool hasValidPath(vector<vector<int>>& grid) {
