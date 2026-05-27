@@ -7,7 +7,7 @@ public:
         for(int i = 0; i<n/2; i++){
             temp+=s[i];
             int m = temp.size();
-            
+            if(n % m != 0) continue;
             int required = n/m;
             string newtemp = "";
             for (int i = 0; i < required; i++) {
