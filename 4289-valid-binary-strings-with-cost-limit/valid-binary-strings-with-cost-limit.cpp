@@ -1,15 +1,21 @@
 class Solution {
 public:
-    string to_binary(int num, int n){
-        string binary(n, '0');
+    string to_binary(int num, int len) {
+    string s = "";
 
-        for(int i = n - 1; i >= 0; i--){
-            binary[i] = (num % 2) + '0';
-            num /= 2;
-        }
-
-        return binary;
+    while (num > 0) {
+        s += (num % 2) + '0';
+        num /= 2;
     }
+
+    reverse(s.begin(), s.end());
+
+    while (s.size() < len) {
+        s = '0' + s;
+    }
+
+    return s;
+}
 
     bool isValid(string &binary){
     for(int i = 1; i < binary.size(); i++){
