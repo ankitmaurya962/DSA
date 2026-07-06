@@ -3,29 +3,23 @@ public:
     int maxDigitRange(vector<int>& nums) {
         int sum = 0;
         int maxRange = -1;
-
-        for (int x : nums) {
-            int num = x;
-            int maxDigit = 0, minDigit = 9;
-
-            if (num == 0) {
-                maxDigit = minDigit = 0;
-            }
-
-            while (num > 0) {
-                int digit = num % 10;
+        for(int i = 0; i<nums.size(); i++){
+            int num = nums[i];
+            int maxDigit = 0;
+            int minDigit = 9;
+            while(num!=0){
+                int digit = num%10;
                 maxDigit = max(maxDigit, digit);
                 minDigit = min(minDigit, digit);
-                num /= 10;
+                num = num/10;
             }
-
             int range = maxDigit - minDigit;
 
-            if (range > maxRange) {
+            if(range > maxRange){
                 maxRange = range;
-                sum = x;
-            } else if (range == maxRange) {
-                sum += x;
+                sum = nums[i];
+            }else if(range == maxRange){
+                sum += nums[i];
             }
         }
 
