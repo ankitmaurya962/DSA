@@ -30,8 +30,7 @@ public:
         bool left = isBalanced(root->left);
         if(!left) return false;
         bool right = isBalanced(root->right);
-
-        if(!left || !right) return false;
+        if(!right) return false;
 
         return true;
     }
