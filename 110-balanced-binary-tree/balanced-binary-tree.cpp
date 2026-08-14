@@ -28,6 +28,7 @@ public:
         if(abs(lh-rh) > 1) return false;
 
         bool left = isBalanced(root->left);
+        if(!left) return false;
         bool right = isBalanced(root->right);
 
         if(!left || !right) return false;
