@@ -4,17 +4,17 @@ public:
 
         int allxor = 0;
 
+        int countZero = 0;
         for(int i = 0; i<nums.size(); i++){
             allxor ^= nums[i];
+            if(nums[i] == 0) countZero ++;
         }
 
         if(allxor != 0) return nums.size();
-
-        for(int i = 0; i<nums.size(); i++){
-            int tempXor = allxor ^ nums[i];
-            if(tempXor != 0) return nums.size()-1;
+        else{
+            if(countZero == nums.size()) return 0;
         }
 
-        return 0;
+        return nums.size()-1;
     }
 };
