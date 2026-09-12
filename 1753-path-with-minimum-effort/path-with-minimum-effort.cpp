@@ -19,7 +19,7 @@ public:
             int effort = pq.top().first;
             pq.pop();
 
-            if(x == n-1 && y == m-1) return effort;
+            // if(x == n-1 && y == m-1) return effort;
 
             for(int i = 0; i<4; i++){
                 int newX = row[i] + x;
