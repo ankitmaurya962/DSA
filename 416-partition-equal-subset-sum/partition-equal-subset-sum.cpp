@@ -1,32 +1,28 @@
 class Solution {
 public:
-    bool f(int n, int target, vector<int>&nums, vector<vector<int>>&dp){
-        if(target == 0){
-            return true;
-        }
-        if(n == 0){
-            return nums[n] == target;
-        }
-        if(dp[n][target] != -1) return dp[n][target];
-        bool notpick = f(n-1, target, nums, dp);
+    bool f(vector<int>&nums, int i, int target, vector<vector<int>>&dp){
+        if(target == 0) return true;
+
+        if(i == 0) return nums[i] == target;
+
+        if(dp[i][target] != -1) return dp[i][target];
+
         bool pick = false;
-        if(nums[n] <= target){
-            pick = f(n-1, target - nums[n], nums, dp);
-        }
+        if(nums[i] <= target) pick = f(nums, i-1, target-nums[i], dp);
+        bool notPick = f(nums, i-1, target, dp);
 
-        return dp[n][target] = notpick || pick;
+        return dp[i][target] = pick || notPick;
     }
-
     bool canPartition(vector<int>& nums) {
-        int sum = 0;
         int n = nums.size();
-        for(int i = 0; i<n; i++){
-            sum += nums[i];
-        }
+        
+        int sum = 0;
+        for(auto it: nums) sum += it;
+
         if(sum%2!=0) return false;
         int target = sum/2;
-        vector<vector<int>>dp(n+1, vector<int>(target+1, -1));
 
-        return f(n-1, target, nums, dp);
+        vector<vector<int>>dp(n, vector<int>(target + 1, -1));
+        return f(nums, n-1, target, dp);
     }
 };
