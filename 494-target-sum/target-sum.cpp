@@ -11,7 +11,7 @@ int f(int n, vector<int>&arr, int target, vector<vector<int>>&dp){
     int pick = 0;
     if(arr[n] <= target) pick = f(n-1, arr, target-arr[n], dp);
 
-    return dp[n][target] = (notPick + pick)%1000000007;
+    return dp[n][target] = (notPick + pick);
 }
 
 int countPartitions(int n, int d, vector<int> &arr) {
